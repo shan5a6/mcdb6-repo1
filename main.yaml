@@ -1,0 +1,6 @@
+---
+- name: fixing the ansible code
+  hosts: all
+  tasks:
+    - name: working with ansible
+      command: uname -a
